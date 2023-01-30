@@ -51,6 +51,7 @@ body {
     font-weight: bold;
     color: aliceblue;
     text-align: center;
+    
 }
 .cuerpo {
     color: aliceblue;
@@ -89,26 +90,45 @@ body {
     background-color: #2f4f4f;
     border-radius: 10px;
 }
-.texto h2 {
+.badge0 {
     background-color: #2f4f4f;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 1rem;  
 }
-.bati {
+.badge {
     background-color: #2f4f4f;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
+    border-radius: 10px;  
 }
 .inicio {
     text-decoration: none;
-    color: blue;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 2rem;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.inicio2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    margin: 3rem;
+    justify-content: space-around;
 }
 .inicio:hover{
     color: red;
+}
+.badge {
+    background-color: #2f4f4f;
+    border-radius: 20px;
+}
+.badge1 {
+    border-radius: 10px;
+    border: 1px solid white;
 }
 @media (max-width: 1100px) {
     .introduccion img {
