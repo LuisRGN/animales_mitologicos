@@ -18,7 +18,7 @@ body {
 }
 .introduccion p {
     color: aliceblue;
-    font-size: 23px;
+    font-size: 1rem;
 
 }
 .introduccion img {
@@ -73,7 +73,7 @@ body {
 .texto{
     width: 80%;
     margin: 4rem auto 6rem;
-    font-size: 23px;
+    font-size: 1rem;
 }
 .texto p {
   background-color: rgba(0, 0, 0, 0.581);
@@ -164,7 +164,7 @@ body {
     }
     .introduccion p,
     .texto p {
-        font-size: 20px;
+        font-size: 1rem;
     }
     
  }
