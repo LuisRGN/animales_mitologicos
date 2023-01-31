@@ -53,6 +53,9 @@ body {
     padding: 8px;
     border: 1px groove;
 }
+.animal a {
+    text-decoration: none;
+}
 .autor {
     font-weight: bold;
     color: aliceblue;
